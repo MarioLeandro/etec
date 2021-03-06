@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.img-logo-container img {
+    width: 25%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.menu {
+    margin-right: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration-line: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.services-container {
+    width: 1280px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-top: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: teal;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+
+.team p {
+    max-width: 500px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.team img {
+    border-radius: 80px;
+}
+
+.ourwork {
+    padding: 2rem 2rem;
+}
+
+.ourwork p {
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ourwork div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ourwork div ul{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+

@@ -33,6 +33,11 @@ body {
 .menu a {
     color: white;
     text-decoration-line: none;
+    transition: color 0.2s;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 121);
 }
 
 .main {

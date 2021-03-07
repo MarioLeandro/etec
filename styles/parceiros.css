@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.img-logo-container img {
+    width: 25%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+.menu {
+    margin-right: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration-line: none;
+    transition: color 0.2s;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 121);
+}
